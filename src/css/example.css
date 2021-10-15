@@ -1,0 +1,56 @@
+.container {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.button {
+  display: block;
+  min-width: 100px;
+  margin: 5px auto;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #aaa;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ccc;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button_yellow {
+  background-color: gold;
+}
+
+.button_yellow:hover {
+  background-color: yellow;
+}
+
+
+.button_blue {
+  background-color: darkblue;
+  color: white;
+}
+
+.button_blue:hover {
+  background-color: blue;
+}
+
+.button_red {
+  background-color: darkred;
+  color: white;
+}
+
+.button_red:hover {
+  background-color: brown;
+  color: black;
+}
